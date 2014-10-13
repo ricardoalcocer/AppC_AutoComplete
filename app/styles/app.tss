@@ -1,0 +1,29 @@
+".container[platform=ios]" : {
+	backgroundColor:"white",
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT 
+}
+
+".container[platform=android]": {
+	backgroundColor:"white"
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"TextField": {
+	left: "10",
+	width: Ti.UI.FILL,
+	color: "black",
+	clearButtonMode:Titanium.UI.INPUT_BUTTONMODE_ONFOCUS,
+	//returnKeyType: Titanium.UI.RETURNKEY_DONE,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false
+},
+"TableViewRow": {
+	height: "40",
+	hasChild: true
+},
+"TableView": {
+	height: Ti.UI.FILL
+}

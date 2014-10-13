@@ -1,0 +1,5 @@
+<Alloy>
+	<TableViewRow class="wordTVR">
+		<Label id="wordLbl" width="80%" left="10"/>
+	</TableViewRow>
+</Alloy>

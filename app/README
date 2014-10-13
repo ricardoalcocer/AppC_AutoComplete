@@ -1,0 +1,27 @@
+Simple ACS Use case
+
+Use ACS Custom Objects to save search history across device
+
+On a mobile device, entering text is painful. When you search for something,
+say a Product in an ERP system or an Account in a CRM system, there is great
+chance that you will be searching for that item again.
+
+Furthermore, many mobile users have multiple devices, say an Android for work
+and an iPad at home. When you do a search on the Android Phone and then later
+do a search on your iPad at home, it would be nice to see the search history
+synced across device.
+
+This demo shows this search history concept in a company search form.
+
+Press your finger in the search field and see previous searches in red.
+
+Enter a character and a search of companies will execute in the form of an
+autocomplete (along with the search history results at the bottom).
+
+When you click on a company in the search results, that company and stock
+symbol will be saved in yoursearch history. Again, this can be applied to
+any application or search.
+
+Clicking on the "i" button brings up the about window.
+
+Long Pressing on the "i" button clears your search history.

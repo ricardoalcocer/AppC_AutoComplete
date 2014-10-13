@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="container" layout="vertical" backgroundColor="#000">
+		<!-- Android-Only -->
+		<ActionBar title="Autocomplete demo" platform="android"/>
+		
+		<!-- iOS-Only -->
+		<Toolbar platform="ios" top="20" barColor="#000">
+			<Items>
+				<FlexSpace/>
+				<Label color="#fff">Autocomplete demo</Label>
+				<FlexSpace/>
+			</Items>
+		</Toolbar>
+
+		<!-- Common -->
+		<View layout="vertical" backgroundColor="#fff">
+			<TextField id="wordTF" hintText="Enter word" height="40"/>
+			<TableView id="wordTV"/>
+		</View>
+	</Window>
+</Alloy>
