@@ -92,7 +92,7 @@ function getWords(text, o){
 		timeout: 10000,
 	});
 	
-	xhr.open("GET", "http://api.wordnik.com/v4/words.json/search/"+text+"?api_key=3fc30fd2caff363468b3a4c28675145127f8640f06715d94f");
+	xhr.open("GET", "http://api.wordnik.com/v4/words.json/search/"+Ti.Network.encodeURIComponent(text)+"?api_key=3fc30fd2caff363468b3a4c28675145127f8640f06715d94f");
 	xhr.send();
 };
 
